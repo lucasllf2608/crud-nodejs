@@ -1,0 +1,30 @@
+# Pasta de dependências do Node.js
+node_modules/
+
+# Variáveis de ambiente
+.env
+.env.*local  # Para configurações locais que podem sobrescrever .env
+
+# Logs e arquivos de debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.nyc_output/
+coverage/
+
+# Arquivos de build e temporários
+dist/
+build/
+*.tsbuildinfo
+.eslintcache
+*.log
+
+# Arquivos de IDEs (Editores de Código) - Remova ou adicione conforme sua IDE
+.vscode/        # Visual Studio Code
+.idea/          # WebStorm / IntelliJ
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema operacional
+.DS_Store       # macOS
+Thumbs.db       # Windows
